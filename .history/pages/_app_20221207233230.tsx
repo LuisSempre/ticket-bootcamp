@@ -1,7 +1,7 @@
 import Head from "next/head";
 import "../styles/globals.css";
 
-function App({ Component, pageProps }) {
+function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
@@ -12,4 +12,4 @@ function App({ Component, pageProps }) {
   );
 }
 
-export default App;
+export default MyApp;

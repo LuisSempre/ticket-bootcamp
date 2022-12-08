@@ -18,7 +18,7 @@ export default function Home() {
           <footer className="flex flex-col gap-5 mt-10 lg:flex-row">
             <a
               href={signInUrl}
-              className="flex items-center justify-center gap-2 px-6 py-4 font-bold text-white bg-green-500 rounded"
+              className="flex items-center justify-center gap-2 px-6 py-4 font-bold text-white rounded bg-brand-500"
             >
               <Image src="/icons/github.svg" width={24} height={24} alt={""} />
               Faça login com Github
